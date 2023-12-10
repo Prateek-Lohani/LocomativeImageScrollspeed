@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+.page1,.page2,.page3{
+    width:100%;
+    height:100vh;
+}
+
+.page1{
+    background-color: aquamarine;
+}
+
+.page2{
+    background-color: cadetblue;
+}
+
+.page3{
+    background-color: paleturquoise;
+}
+
+.imagecontainer{
+    width:50%;
+    height:100%;
+    /* background-color: blue; */
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.imagecontainer img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: 10% 80%;
+   
+}
